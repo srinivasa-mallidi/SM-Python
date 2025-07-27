@@ -1,10 +1,10 @@
-# 🛠️ Maximo Helpdesk Assistant (Rule-based Chatbot)
+# Maximo Helpdesk Assistant (Rule-based Chatbot)
 
 The **Maximo Helpdesk Assistant** is a rule-based chatbot designed to provide support for users working with IBM Maximo. It handles frequently asked questions using a simple CSV-driven Q&A approach and fuzzy string matching.
 
 ---
 
-## 📌 Features
+## Features
 
 - Rule-based responses powered by a question-answer CSV file
 - Fuzzy matching using Python's `difflib` to handle variations in user input
@@ -13,7 +13,7 @@ The **Maximo Helpdesk Assistant** is a rule-based chatbot designed to provide su
 
 ---
 
-## 🧠 Example Use Cases
+## Example Use Cases
 
 - Troubleshooting Maximo login issues
 - Guidance on raising support tickets
@@ -39,7 +39,7 @@ The **Maximo Helpdesk Assistant** is a rule-based chatbot designed to provide su
 
 ---
 
-## 🛠️ Installation & Setup
+## Installation & Setup
 
 ### 1. Clone the repository
 
@@ -74,7 +74,7 @@ Visit [http://127.0.0.1:5000](http://127.0.0.1:5000) in your browser.
 
 ---
 
-## 🔍 How It Works
+## How It Works
 
 - The chatbot reads a CSV file (`maximo_it_helpdesk_qna_full.csv`) containing questions and answers.
 - When a user enters a query:
@@ -84,7 +84,7 @@ Visit [http://127.0.0.1:5000](http://127.0.0.1:5000) in your browser.
 
 ---
 
-## 📑 CSV Format (maximo\_it\_helpdesk\_qna\_full.csv)
+## CSV Format (maximo\_it\_helpdesk\_qna\_full.csv)
 
 ```csv
 Question,Answer
@@ -95,7 +95,7 @@ Maximo is down. What should I do?,Immediately report to IT Operations and raise 
 
 ---
 
-## 🚀 Future Enhancements
+## Future Enhancements
 
 - Integration with live support chat APIs
 - Multi-turn conversation support
@@ -104,7 +104,7 @@ Maximo is down. What should I do?,Immediately report to IT Operations and raise 
 
 ---
 
-## ✅ Status
+## Status
 
 This project is complete for CLI and Flask web interface using rule-based Q&A logic. Feedback and extensions are welcome!
 
