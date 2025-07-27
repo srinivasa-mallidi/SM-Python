@@ -1,0 +1,12 @@
+# Ignore a specific file
+
+
+# Ignore a folder
+01_PythonProjects/mhaenv/
+
+# Ignore all `.log` files
+*.log
+
+# Ignore everything in a folder except one file
+#config/*
+#!config/important.json

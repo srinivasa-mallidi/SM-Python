@@ -1,0 +1,51 @@
+Question,Answer
+Maximo is  down.,Immediately report to IT Operations and raise a P1 support ticket.
+I'm getting a blank screen after login.,"Try clearing your browser cache or switch browser. If issue persists, raise a ticket."
+I made a wrong entry in a critical record. Can it be reversed?,Raise a support ticket with record details. Data restoration depends on the case.
+How can I define a shift for a labor?,Use ‘Labor’ application > Assign calendar and shift.
+What are Work Periods in Maximo?,Work periods define the working days/hours for scheduling work orders.
+Can I update calendar exceptions?,"Yes, through the Calendar application > Modify exceptions."
+How are classifications used in Maximo?,"They help categorize assets, SRs, and items."
+What is a synonym domain?,"A domain that maps synonyms to values (e.g., Status = OPEN/CLOSED)."
+Can I edit a domain value?,Only admin users can modify domain values. Raise a request.
+How to integrate Maximo with SAP?,"Integration is usually done via middleware using REST, SOAP, or WebMethods."
+What are Automation Scripts?,Scripts written in Python/JavaScript to customize logic in Maximo.
+Can I schedule an interface to run daily?,"Yes, via Cron Tasks. Contact admin for setup."
+How do I create an escalation?,Go to Escalations > New > Define condition and action > Activate.
+What are KPIs in Maximo?,Key Performance Indicators that track operational metrics.
+How do I create a dashboard in Maximo?,Use the Start Center > Configure > Add KPI portlets.
+Can I share my dashboard with others?,Dashboards are user-specific. Ask admin to replicate it for others.
+Is there a way to track who changed a record?,"Yes, through Audit or Change History tracking."
+Can I download a list of all POs for audit?,Use the PO application > Run a BIRT report or export.
+How do I ensure compliance tagging is done on assets?,Use the Classification and Attributes properly while creating assets.
+How can I create a new user in Maximo?,Go to Security Groups > Users > New User. Assign groups and save.
+How to reset someone's password?,"From the Users application, select the user and click Reset Password."
+Can I disable a user temporarily?,"Yes, uncheck the ""Active"" flag in the Users application."
+Which browser is best for Maximo?,Chrome and Edge are preferred. Avoid using Internet Explorer.
+Maximo freezes when I open work orders.,Clear browser cache or try in incognito mode.
+How can I take a backup of my records?,Use the Export feature in the list view.
+Can I upload multiple files to a WO?,"Yes, in the ‘Attachments’ tab, click ‘New Row’ for each file."
+Is there a file size limit?,"Yes, default limit is around 10MB. Check with IT for increasing it."
+Can I upload a PDF drawing for an asset?,Absolutely. Use the asset screen > Attachments > Upload.
+Where can I learn how to use Maximo?,Training links and guides are available on the company intranet.
+Is there any simulation available?,"Yes, interactive walkthroughs can be accessed from the LMS or wiki."
+Can I practice in a test environment?,Yes. Ask your manager to request access to the Maximo sandbox environment.
+How do I change my Start Center layout?,Go to your profile > Start Center configuration.
+Can I change the language of Maximo?,Only if multilingual is enabled. Contact admin.
+How to bookmark frequently used apps?,Use the Favorites icon next to the app name.
+Maximo is slow today. Why?,It could be due to high load or scheduled jobs. Contact IT for confirmation.
+How do I report a performance issue?,"Share timestamp, screen, and action being performed in the ticket."
+What version of Maximo are we using?,You are using Maximo Manage 8.11 (or relevant version).
+How to get email alerts for Work Orders?,Subscribe to email notifications under your profile or use communication templates.
+I am not getting notifications from Maximo.,Check your junk mail and confirm if your email is updated in user profile.
+Where can I view Maximo logs?,Log files are stored in IBM WebSphere logs directory. Only admins can access.
+How to trace an integration message?,Use Integration Logs in the Integration Framework application.
+What are Cron Tasks?,"Scheduled background tasks like PM generation, Escalations, etc."
+How do I raise a ticket for laptop issues?,Use the ITSM tool or portal. Maximo only handles asset/work requests.
+Can I track my Maximo request from mobile?,"Yes, login via Maximo Mobile to track SRs and WOs."
+Can I delegate my approvals to someone?,"Yes, go to your user profile and set up a delegate."
+My request is not moving forward (Approval)?,Please remind the approver or raise escalation with support.
+My request is not moving forward (Workflow)?,Provide the request ID; we'll check if it's stuck in workflow engine.
+How do I delete an old work order?,Change the status to CANCEL. Only admin can delete records.
+Can I archive old asset records?,"Yes, based on retention policy. Contact support."
+Can I give feedback on Maximo?,Yes! Please use the “Feedback” form on the Helpdesk portal.
