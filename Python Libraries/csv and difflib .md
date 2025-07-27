@@ -1,7 +1,7 @@
 
 # `csv` and `difflib` Modules
 
-This guide introduces how to work with CSV files and perform fuzzy string matching using Python’s built-in libraries: `csv` and `difflib`. Examples use culturally familiar names such as **Srinivasa** and **Sowmya**.
+This guide introduces how to work with CSV files and perform fuzzy string matching using Python’s built-in libraries: `csv` and `difflib`. 
 
 ---
 
