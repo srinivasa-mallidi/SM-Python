@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Maximo IT Helpdesk Bot</title>
+    <style>
+        body { font-family: Arial, sans-serif; background: #f4f4f4; margin: 0; padding: 40px; }
+        .container { background: white; max-width: 700px; margin: auto; padding: 20px; border-radius: 8px; }
+        h2 { color: #0066cc; }
+        input[type=text] { width: 85%; padding: 10px; margin-top: 10px; }
+        input[type=submit] { padding: 10px 15px; background: #007bff; color: white; border: none; }
+        .message { margin-top: 20px; }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <h2>🛠️ Maximo IT Helpdesk Chatbot</h2>
+        {% if user_input %}
+            <div class="message"><strong>You:</strong> {{ user_input }}</div>
+            <div class="message"><strong>Bot:</strong> {{ response|safe }}</div>
+        {% endif %}
+        <form method="post">
+            <input type="text" name="user_input" placeholder="Ask a question..." required autofocus>
+            <input type="submit" value="Ask">
+        </form>
+    </div>
+</body>
+</html>
